@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TampilActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Tumbuhan" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextId" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Tumbuhan" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori" />
+
+    <Spinner
+        android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="-3dp"
+        android:hint="Type"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextKategori" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Tumbuhan"
+        android:id="@+id/buttonUpdate" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Tumbuhan"
+        android:id="@+id/buttonDelete" />
+
+</LinearLayout>
